@@ -90,6 +90,7 @@
 
 .title-parent {
     text-align: center;
+    padding: 0 48px;
 }
 
 .title {
@@ -142,4 +143,25 @@
     font-weight: 600;
     line-height: 23px;
     padding: 10px 16px;
+}
+
+/* 2nd Inspiration section  */
+
+#inspiration {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#inspiration .text {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.iframe {
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
