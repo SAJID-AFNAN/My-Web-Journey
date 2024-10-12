@@ -262,12 +262,12 @@
     margin: auto;
     text-align: center;
     border-radius: 16px;
-    /* background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url('/assets/handshake.jpg'); */
     background-image: url('/assets/handshake.jpg');
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
-
+    margin-top: 60px;
 }
 
 .support {
@@ -306,4 +306,33 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     padding: 20px;
+}
+
+/* Main section end  */
+
+/* footer section  */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.icon-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 32px 140px;
+}
+
+.icon-parent h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
 }
