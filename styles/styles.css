@@ -207,8 +207,8 @@
     background: rgba(255, 223, 0, 0.05);
 }
 
-.card img{
-    margin-bottom: 20px ;
+.card img {
+    margin-bottom: 20px;
 }
 
 .card-heading {
@@ -247,9 +247,63 @@
     border-radius: 16px;
     margin-bottom: 24px;
 }
-.next-card img{
+
+.next-card img {
     height: 100%;
 }
-.next-card .text{
+
+.next-card .text {
     margin-bottom: 20px;
+}
+
+/* feedback section which is final section of main */
+#feedback {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 16px;
+    /* background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url('/assets/handshake.jpg'); */
+    background-image: url('/assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.support {
+    height: 100%;
+    padding: 64px 48px;
+}
+
+.support h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support .text {
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#text {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+}
+
+#submit {
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 20px;
 }
