@@ -41,7 +41,7 @@
 /*Hero section */
 
 #hero {
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -263,7 +263,7 @@
     margin: auto;
     text-align: center;
     border-radius: 16px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     background-size: cover;
